@@ -1,0 +1,55 @@
+/*Header and Navigation styles--------------------------------------------------------------*/
+
+nav h2 {
+    display: none;
+}
+
+header nav {
+    float: right;
+    list-style: none;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+body>header {
+    margin-bottom: 40px;
+}
+
+header li a h4 {
+    padding-right: 20px;
+    font-weight: 400;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/*----Clearfix---------------------------------------------------------------------------------*/
+
+.clearfix {
+    clear: both;
+}
+
+
+/*main body Styles-----------------------------------------------------------------------------*/
+
+p {
+    font-size: 17px;
+}
+

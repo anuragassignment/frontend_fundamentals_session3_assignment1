@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Document type Declration of HTML5 -->
+<html lang="en">
+
+<head>
+    <!--All the meta infromation goes in the head section-->
+    <meta charset="UTF-8">
+    <title>ACADGILD</title>
+    <!--Link to StyleSheet-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Internal styles starts here -->
+    <style>
+        /*---- Internal styles applied to the container div -----*/
+        
+        div {
+            font-family: Arial;
+            font-size: 20px;
+        }
+        /*---- styles applied to heading of the topic using child Selector-----*/
+        
+        div>h1 {
+            letter-spacing: 4px;
+            font-style: bold;
+            color: #000022;
+        }
+        /*----- Style applied to paragraph using adjacent sibling selector ----*/
+        
+        h1+p {
+            color: gray;
+            word-spacing: 3px;
+        }
+    </style>
+    <!-- Internal styles ends here -->
+</head>
+
+<body>
+    <!--Document's content goes here-->
+
+    <!-- Header Starts Here -->
+
+    <header>
+        <h1><a href="#">ACADGILD</a></h1>
+        <!-- Main Navigation Starts Here -->
+        <nav>
+            <h2>Main Navigation</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h4>Home</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/our_courses.html">
+                        <h4>Courses Offered</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>About Us</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Contact Us</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Our Services</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h4>Testimonials</h4>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+        <hr>
+    </header>
+
+    <!-- Main Starts Here-->
+
+    <main>
+
+        <article>
+            <!-- the div which surrounds the content-->
+            <div>
+                <h1>
+                    <center>Web Development</center>
+                </h1>
+                <!-- Description of the Web Development goes in the paragraph that follows-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quas odit harum officia eaque excepturi cupiditate aperiam autem ipsum dicta quibusdam, aut, cumque magni ducimus, sunt placeat ipsa expedita sapiente? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa consequuntur, ullam, recusandae libero voluptatem repellat consequatur rem numquam. Aperiam minima architecto vel, ad totam ipsum eligendi deleniti voluptatem quo suscipit.</p>
+            </div>
+            <!-- the content div ends here -->
+        </article>
+        <!-- article ends here -->
+    </main>
+    <!-- Main ends here -->
+
+    <!-- Footer starts here -->
+    <footer>
+        <p>
+            <center><small>©Copyright 2017 programmers inc.</small></center>
+        </p>
+    </footer>
+    <!--Link to Scripts start Here -->
+    <script src="../javascript/scripts1.js"></script>
+</body>
+
+</html>
